@@ -61,9 +61,7 @@ var close_cart = document.getElementById("close-cart");
 car_btn_show.addEventListener("click", () => {
   cart.classList.add("showed");
 });
-car_btn2_show.addEventListener("click", () => {
-  cart.classList.add("showed");
-});
+
 close_cart.addEventListener("click", () => {
   cart.classList.remove("showed");
 });

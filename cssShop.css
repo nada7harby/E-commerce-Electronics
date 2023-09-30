@@ -23,7 +23,7 @@ select option {
   height: 100%;
 }
 
-.swiper-slide {
+.cart .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;

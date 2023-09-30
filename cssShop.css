@@ -30,6 +30,7 @@ select option {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .swiper-slide img {
@@ -273,7 +274,7 @@ td span {
   cursor: pointer;
 }
 
-..cart {
+.cart-prouduct {
   height: 100%;
   width: 41%;
   position: absolute;
@@ -282,8 +283,9 @@ td span {
   right: 0;
   display: none;
   transition: 1s;
+  z-index: 5;
 }
-.cart.showed {
+.cart-prouduct.showed {
   display: block;
 }
 .cart-title {
@@ -314,7 +316,7 @@ td span {
   font-size: 20px;
 }
 @media (max-width: 560px) {
-  .cart {
+  .cart-prouduct.showed {
     width: 100%;
   }
 }

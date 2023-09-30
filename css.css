@@ -471,6 +471,10 @@ nav {
   padding: 0px 10px;
   text-align: center;
 }
+.name-pr {
+  font-size: 22px;
+  font-family: cursive;
+}
 footer {
   background-color: #ffe4b8;
 

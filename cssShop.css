@@ -62,8 +62,9 @@ select option {
   top: 10px;
   font-size: 20px;
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
+.cart .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.cart
+  .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
   padding: 15px 26px 29px 10px;

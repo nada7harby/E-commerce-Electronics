@@ -273,17 +273,18 @@ td span {
   cursor: pointer;
 }
 
-.cart {
+..cart {
   height: 100%;
   width: 41%;
   position: absolute;
   background-color: #efeeeb;
   top: 0px;
-  right: -200%;
+  right: 0;
+  display: none;
   transition: 1s;
 }
 .cart.showed {
-  right: 0;
+  display: block;
 }
 .cart-title {
   padding: 20px 40px 15px 40px;

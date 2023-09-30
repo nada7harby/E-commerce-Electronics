@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce/ fav</title>
+    <link rel="icon" href="img/letter-f.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="cssShop.css" />
+  </head>
+  <body>
+    <section class="search">
+      <div class="container">
+        <div class="row m-0 d-flex justify-content-around">
+          <div class="col-lg-3 col-sm-3 col-9">
+            <a href="index.html">
+              <img src="img/logo2.png" alt="" class="logo" width="100%"
+            /></a>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-9">
+            <div class="search-input">
+              <div class="input-group">
+                <div class="form-outline">
+                  <input
+                    type="search"
+                    id="form1"
+                    class="form-control"
+                    placeholder="Search..."
+                  />
+                  <button type="button" class="btn btn-search">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-3 col-9 reacted">
+            <span
+              ><a href=""><i class="fa-solid fa-heart"></i></a>
+            </span>
+            <span class="bord"></span>
+            <span
+              ><i class="fa-solid fa-basket-shopping" id="car-btn2-show"></i>
+            </span>
+            <span class="bord"></span>
+            <span
+              ><a href=""><i class="fa-regular fa-user"></i></a
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="navBar" style="width: 100%; z-index: 2;">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <div class="select" id="select">
+            <i class="fa-solid fa-bars"></i> All Categories
+          </div>
+          <div class="options" id="options">
+            <ul>
+              <li>Headphones</li>
+              <li>Mobile Tablets</li>
+              <li>CPU Heat Pipes</li>
+              <li>Smart Watch</li>
+              <li>Bluetooth</li>
+            </ul>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prouduct.html">Prouduct</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="car-btn-show">Cart</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="favourite">
+      <div class="row">
+        <div class="col-lg-9 col-sm-9 col-9">
+          <div class="row d-flex justify-content-around">
+            <div class="col-lg-12 col-sm-12 col-12 p-5">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th style="width: 25%;">Product</th>
+                    <th style="width: 50%;"></th>
+                    <th>Price</th>
+                    <th style="width: 15%;">Add Cart</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="parant">
+                    <td><img src="img/watch-5.png" alt="" /></td>
+                    <td>
+                      <span>Apple Watch Sport Band</span>
+                    </td>
+                    <td><span>$55</span></td>
+                    <td>
+                      <div class="btn">add to cart</div>
+                    </td>
+                    <td class="Remove" id="remove" style="color: red;">
+                      Remove
+                    </td>
+                  </tr>
+                  <tr class="parant">
+                    <td><img src="img/watch-5.png" alt="" /></td>
+                    <td>
+                      <span>Apple Watch Sport Band</span>
+                    </td>
+                    <td><span>$55</span></td>
+                    <td>
+                      <div class="btn">add to cart</div>
+                    </td>
+                    <td class="Remove" id="remove" style="color: red;">
+                      Remove
+                    </td>
+                  </tr>
+                  <tr class="parant">
+                    <td><img src="img/watch-5.png" alt="" /></td>
+                    <td>
+                      <span>Apple Watch Sport Band</span>
+                    </td>
+                    <td><span>$55</span></td>
+                    <td>
+                      <div class="btn">add to cart</div>
+                    </td>
+                    <td class="Remove" id="remove" style="color: red;">
+                      Remove
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-3 offer">
+          <img src="img/bannar9.jpg" alt="" />
+          <img src="img/bannar10.jpg" alt="" />
+          <img src="img/bannar4.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cart" id="cart">
+      <div class="row cart-title justify-content-between">
+        <div>Shopping</div>
+        <div>
+          <span><i class="fa-solid fa-xmark" id="close-cart" style="color: red;"></i></span>
+        </div>
+      </div>
+      <hr />
+      <div class="row total">
+        <p>Total Price $ <span id="Total-price">0</span></p>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="img/watch-4.png" alt="" width="100%" />
+        </div>
+        <div class="col-lg-7 d-flex justify-content-between data-div-cart">
+          <div class="data_pr_cart  " >
+            <h4>Apple Watch Sport Band</h4>
+            <div style="display: inline-block;">$<span class="price_cart_pr">65</span></div>
+          </div>
+          <div>  <span ><i class="fa-solid fa-xmark"  style="color: red;"></i></div>
+           
+        </div>
+      </div>
+      <div class="hr pl-5 pr-5"><hr>   </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+          <div class="col-lg-3 col-sm-3 col info">
+            <img src="img/logo2.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              porro magni incidunt! Beatae consequatur maxime asperiores dolorum
+              quos nobis quasi consequuntur
+            </p>
+
+            <div class="media">
+              <span
+                ><i class="fa-brands fa-facebook" style="color: #0770b7;"></i
+              ></span>
+              <span><i class="fa-brands fa-square-instagram"></i></span>
+              <span
+                ><i class="fa-brands fa-whatsapp" style="color: #4dc247;"></i
+              ></span>
+              <span
+                ><i class="fa-brands fa-twitter" style="color: #00adff;"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-3 col info2">
+            <h4>My Account</h4>
+            <ul>
+              <li>Track Orders</li>
+              <li>Shipping</li>
+              <li>Wishlist</li>
+              <li>Order History</li>
+              <li>Returns</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-3 col info3">
+            <h4>Infomation</h4>
+            <ul>
+              <li>Our Story</li>
+              <li>Careers</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+              <li>Latest News</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-3 col call">
+            <h4>Talk To Us</h4>
+            <p>Got Questions? Call us</p>
+            <h4>+670 413 90 762</h4>
+            <ul>
+              <li>shofy@support.com</li>
+              <li>79 Sleepy Hollow St. Jamaica, New York 1432</li>
+            </ul>
+          </div>
+        </div>
+        <div class="line" style="padding: 20px 0px;">
+          <hr />
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="copy">
+            © Copyright , All Rights Reserved
+            <div>
+              Designed by
+              <a
+                href="https://www.linkedin.com/in/nada-harby-048b36219/"
+                style="
+                  color: #b66f00;
+                  font-size: 22px;
+                  text-decoration: none;
+                  font-family: cursive;
+                "
+                >Nada Harby</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="jsShop.js"></script>
+    <script src="js.js"></script>
+  </body>
+</html>

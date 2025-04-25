@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Mobile",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/mobile-1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "2",
+      "name": "Headphones",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/headphone-3.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "3",
+      "name": "Watch",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/watch-6.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "4",
+      "name": "Laptop",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/lab3.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/blutooth-1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "6",
+      "name": "HeadPhone",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/headphone-4.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "7",
+      "name": "Mobile",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/mobile-2.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "8",
+      "name": "Watch",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/watch-8.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "9",
+      "name": "Headphone",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/headphone-6.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "10",
+      "name": "Mobile",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/mobile-5.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "11",
+      "name": "Camera",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/camera3.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "12",
+      "name": "Watch",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/watch-2.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "13",
+      "name": "Mobile",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/mobile-8.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "14",
+      "name": "Watch",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/watch-4.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "15",
+      "name": "Bluetooth",
+      "price": "$65",
+      "originalPrice": "$75",
+      "image": "img/blutooth-1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    },
+    {
+      "id": "16",
+      "name": "Mobile",
+      "price": "$70",
+      "originalPrice": "$76",
+      "image": "img/mobile-6.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint blanditiis possimus magnam aliquam, voluptatem enim facere nostrum vero, voluptas nihil accusamus."
+    }
+  ]
+} 

@@ -47,8 +47,14 @@ span i {
 }
 .fa-heart {
   color: #be0404;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+.fa-heart.active {
+  color: #ff0000;
+  transform: scale(1.2);
+}
 .bord {
   width: 2px;
   background-color: #b8750e;
@@ -197,9 +203,18 @@ nav {
 }
 .card {
   border: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 .card-img-top {
   height: 200px;
+  object-fit: contain;
 }
 .card {
   position: relative;
@@ -605,4 +620,65 @@ footer {
   .cart-prouduct.showed {
     width: 100%;
   }
+}
+
+.favourite .table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.favourite .table td {
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.favourite .table img {
+  max-width: 100px;
+  height: auto;
+}
+
+.favourite .table .btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favourite .table .btn:hover {
+  background-color: #faad31;
+}
+
+.favourite .table .Remove {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favourite .table .Remove:hover {
+  color: #ff0000;
+}
+
+.text-center {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.card .btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #da9d39;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.card .btn:hover {
+  background-color: #faad31;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
